@@ -32,7 +32,7 @@ Dieu khien thiet bi Tuya (den, o cam, cong tac) qua **Giao dien GUI** va **Teleg
 
 ### 1. Clone du an
 ```bash
-git clone <repo_url> tinytuya-control
+git clone [<repo_url> tinytuya-control](https://github.com/vdlaptrinh/tinytuya-control)
 cd tinytuya-control
 ```
 
