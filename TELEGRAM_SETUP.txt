@@ -1,0 +1,48 @@
+TinyTuya + Telegram Bot Setup
+================================
+
+1. TAO BOT TELEGRAM:
+   - Mo Telegram, tim @BotFather
+   - Gui /newbot
+   - Nhap ten bot (vi du: TinyTuyaBot)
+   - Nhan duoc BOT_TOKEN (string dai)
+
+2. LAY BOT TOKEN:
+   - Copy token nhan duoc tu BotFather
+   - Vi du: 123456789:ABCdefGHIjklMNOpqrsTUVwxyz
+
+3. KHOI DONG BOT:
+   Cach 1: Truc tiep
+   /opt/homebrew/bin/python3.11 /Users/dailuu/Desktop/CT2026/tuya2/telegram_bot.py <BOT_TOKEN>
+
+   Cach 2: Dung script
+   /Users/dailuu/Desktop/CT2026/tuya2/run_bot.sh <BOT_TOKEN>
+
+4. LENH TELEGRAM:
+   /start - Hien thi tro giup
+   /list - Liet ke thiet bi
+   /on <ten> - Bat thiet bi
+   /off <ten> - Tat thiet bi
+   /status <ten> - Xem trang thai
+   /allon - Bat tat ca
+   /alloff - Tat tat ca
+
+   Vi du:
+   /on Den_Ngu
+   /off Den_Phong_Khach
+   /status Den_Bep
+
+5. TEN THIET BI (lay tu config.json):
+   - Den_Ngu
+   - Den_Nha_Ve_Sinh
+   - Den_Gac
+   - Den_Bep
+   - Den_Phong_Khach
+   - Den_Phong_Ngu
+   - O_Cam_Ban_Hoc
+   - IR_Thong_Minh
+
+LUU Y:
+- Chu y ten thiet bi phan biet hoa thuong
+- Bot phai chay lien tuc (nen chay background)
+- De chay nen: nohup /opt/homebrew/bin/python3.11 telegram_bot.py TOKEN &

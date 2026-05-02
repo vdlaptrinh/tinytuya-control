@@ -1,0 +1,12 @@
+# TinyTuya + Telegram Bot Requirements
+# Install: pip install -r requirements.txt
+
+# Core dependencies
+tinytuya>=1.18.0
+python-telegram-bot>=20.0
+
+# Optional but recommended
+requests>=2.28.0
+
+# Note: Tkinter is usually included with Python
+# On macOS with Homebrew Python, install: brew install python-tk@3.11

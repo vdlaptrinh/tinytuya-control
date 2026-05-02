@@ -1,0 +1,12 @@
+{
+  "IOT_DEVICES": {
+    "Ten_Thiet_Bi": {
+      "enabled": true,
+      "device_id": "abc123...",
+      "ip_address": "192.168.1.x",
+      "local_key": "your_key",
+      "version": 3.3,
+      "product_name": "Smart Bulb"
+    }
+  }
+}
